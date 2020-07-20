@@ -1,6 +1,6 @@
 require 'pry'
 class Owner
-  attr_reader :name, :human
+  attr_reader :name, :species
   
   
   def initialize(name)
