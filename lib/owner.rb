@@ -22,5 +22,7 @@ class Owner
   end
   
   def self.count
+    
+  end
   
 end
