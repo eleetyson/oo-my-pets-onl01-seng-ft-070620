@@ -3,16 +3,16 @@ class Owner
   attr_reader :name, :species
   @@all = []
   
+  def self.all
+    @@all
+  end
+  
   def initialize(name)
     @name = name
     @species = "human"
     save
   end
-  
-  def self.all
-    @@all
-  end
-  
+
   def save
     @@all << self
   end
