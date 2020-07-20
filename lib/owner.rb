@@ -4,7 +4,7 @@ class Owner
   
   
   def initialize(name)
-    @name = new
+    @name = name
   end
   
 end
