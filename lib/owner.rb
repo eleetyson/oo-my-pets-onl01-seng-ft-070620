@@ -23,6 +23,7 @@ class Owner
   
   def cats
     self.class.all.select {|pet| pet.species == "cat"}
+    Cat.all.select { |cat| cat.owner == self }
   end
   
   def self.count
