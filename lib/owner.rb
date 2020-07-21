@@ -50,7 +50,10 @@ class Owner
       dog.mood = "nervous"
       dog.owner = nil
     end
-    cats.each { |cat| cat.mood = "nervous"}
+    cats.each do |cat|
+      cat.mood = "nervous"
+      cat.owner = nil
+    end
   end
   
   def self.count
