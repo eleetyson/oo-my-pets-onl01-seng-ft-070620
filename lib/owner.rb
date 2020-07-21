@@ -21,6 +21,10 @@ class Owner
     "I am a #{self.species}."
   end
   
+  def cats
+    binding.pry
+  end
+  
   def self.count
     self.all.length
   end
