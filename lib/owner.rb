@@ -22,6 +22,7 @@ class Owner
   end
   
   def cats
+    binding.pry
     self.class.all.select {|pet| pet.species == "cat"}
   end
   
