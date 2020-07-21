@@ -46,7 +46,7 @@ class Owner
   end
   
   def sell_pets
-    binding.pry
+    self.class.all
   end
   
   def self.count
