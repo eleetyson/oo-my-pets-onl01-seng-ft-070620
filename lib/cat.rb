@@ -14,4 +14,8 @@ class Cat
     @mood = "nervous"
   end
   
+  def save
+    @@all << self
+  end
+  
 end
