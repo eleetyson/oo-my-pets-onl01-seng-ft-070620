@@ -1,6 +1,6 @@
 require 'pry'
 class Owner
-  attr_reader :owner, :species
+  attr_reader :name, :species
   @@all = []
   
   def self.all
@@ -8,7 +8,7 @@ class Owner
   end
   
   def initialize(name)
-    @owner = name
+    @name = name
     @species = "human"
     save
   end
