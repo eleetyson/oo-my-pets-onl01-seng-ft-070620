@@ -37,6 +37,10 @@ class Owner
     Dog.new(dog_name, self)
   end
   
+  def walk_dogs
+    dogs.each { |dog| }
+  end
+  
   def self.count
     self.all.length
   end
