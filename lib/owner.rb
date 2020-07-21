@@ -22,6 +22,7 @@ class Owner
   end
   
   def cats
+    self.class.all
     binding.pry
   end
   
