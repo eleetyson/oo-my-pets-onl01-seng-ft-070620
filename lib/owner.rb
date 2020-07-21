@@ -22,8 +22,7 @@ class Owner
   end
   
   def cats
-    self.class.all
-    binding.pry
+    self.class.all.select {|pet| pet.species == ""}
   end
   
   def self.count
