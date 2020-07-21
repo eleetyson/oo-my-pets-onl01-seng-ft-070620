@@ -1,9 +1,9 @@
 require 'pry'
 class Cat
-  attr_accessor :cat_name, :owner
+  attr_accessor :name, :owner
   
   def initialize(name, owner)
-    @cat_name = name
+    @name = name
     @owner = Owner.new(owner)
   end
   
