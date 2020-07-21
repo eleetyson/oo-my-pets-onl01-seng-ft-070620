@@ -1,6 +1,7 @@
 require 'pry'
 class Dog
-  attr_accessor :name, :owner
+  attr_reader :name
+  attr_accessor :owner
   
   
   def initialize(name, owner)
